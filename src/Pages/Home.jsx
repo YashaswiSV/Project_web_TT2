@@ -3,14 +3,14 @@ import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-import a1 from "../Images/men/img1.avif"
+// import a1 from "../Images/men/img1.avif"
 
 const Home = () => {
     return ( 
         <>  
              <Carousel id='caro' fade>
       <Carousel.Item>
-      <img src={a1} alt=""  width="100%"  height="550px"/>
+      <img src="src/Images/bg/2.png" alt=""  width="100%"  height="550px"/>
 
         <Carousel.Caption>
         
@@ -96,7 +96,7 @@ const Home = () => {
    <div id="card">  
      <div id='car1'>
       <Card  style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="src/Images/men/img1.avif" />
+        <Card.Img variant="top" src="src\Images\men\img4.avif" />
           <Card.Body>
            <Card.Title>T-shirt</Card.Title>
             <Card.Subtitle className="mb-2 text-muted ">$80</Card.Subtitle>
