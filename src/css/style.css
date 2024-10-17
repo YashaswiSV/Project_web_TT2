@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+#nav{
+    /* position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 1; */
+}
+#collapsible-nav-dropdown{
+    /* background-color: black; */
+    /* z-index: 0; */
+}
+/* #item {
+    background-color: white;
+    width: 100px;
+    margin-left: 20px;
+    position:fixed;
+    overflow: hidden;
+       z-index: 2;
+}
+#item2{
+    background-color: white;
+    position: fixed;
+    width: 100px;
+
+    top: 100px;
+    left:489px;
+    z-index: 2;
+
+} */
+#caro{
+    /* position:fixed; */
+    z-index: 0;
+}
+
+#mar{
+    padding : 7px;
+    background-color:black;
+    color: beige;
+}
+#card{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+   
+    /* background-image: (url(../Images/bg/bgg.avif)); */
+    /* position: fixed; */
+    /* z-index: 0; */
+}
+#card #car1,#car2,#car3,#car4,#car5,#car6,#car7,#car8{
+    box-shadow: 5px 5px 10px 8px rgba(0,0,0,0.2);
+    /* margin: 20px; */
+    margin-bottom: 30px;
+    border-radius: 10px;
+     cursor: pointer;
+}
+#car1{
+    overflow: hidden;
+}
+ Img{
+    transition: transform 0.7s;
+}
+#car1:hover Img{
+    /* scale:1.1; */
+    transform: scale(1.1);
+}
+/* ========== */
+#car2{
+    overflow: hidden;
+}
+ Img{
+    transition: transform 0.7s;
+}
+#car2:hover Img{
+    /* scale:1.1; */
+    transform: scale(1.1);
+}
+/* =========== */
+#car3{
+    overflow: hidden;
+}
+ Img{
+    transition: transform 0.7s;
+}
+#car3:hover Img{
+    /* scale:1.1; */
+    transform: scale(1.1);
+}
+/* ========== */
+#car4{
+    overflow: hidden;
+}
+ Img{
+    transition: transform 0.7s;
+}
+#car4:hover Img{
+    /* scale:1.1; */
+    transform: scale(1.1);
+}
+/* =========== */
+#car5{
+    overflow: hidden;
+}
+ Img{
+    transition: transform 0.7s;
+}
+#car5:hover Img{
+    /* scale:1.1; */
+    transform: scale(1.1);
+}
+/* ========== */
+#car6{
+    overflow: hidden;
+}
+ Img{
+    transition: transform 0.7s;
+}
+#car6:hover Img{
+    /* scale:1.1; */
+    transform: scale(1.1);
+}
+/* ========== */
+#car7{
+    overflow: hidden;
+}
+ Img{
+    transition: transform 0.7s;
+}
+#car7:hover Img{
+    /* scale:1.1; */
+    transform: scale(1.1);
+}
+/* ========= */
+#car8{
+    overflow: hidden;
+}
+ Img{
+    transition: transform 0.7s;
+}
+#car8:hover Img{
+    /* scale:1.1; */
+    transform: scale(1.1);
+}
+
+
+
+#cardf{
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+#cardf #c1,#c2,#c3,#c4,#c5{
+
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px 8px rgba(0,0,0,0.2);
+
+}
+#font1{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 34px
+}
+#cardf{
+    box-shadow: 0px 0px 10px 12px  rgba(0,0,0,0.2);
+
+}
