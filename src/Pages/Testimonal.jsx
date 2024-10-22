@@ -1,16 +1,18 @@
-import React, { useRef } from 'react'
-// import './Testimonal.css'
-import next_icon from '../../src/assets/next-icon.png'
-import back_icon from '../../src/assets/back-icon.png'
-// import user_1 from '../../src/assets/'
-import user_1 from '../../src/assets/user_1.jpeg'
-import user_2 from '../../src/assets/user_2.jpeg'
-import user_3 from '../../src/assets/user_3.jpeg'
-import user_4 from '../../src/assets/user_4.jpeg'
+// import React, { useRef } from 'react'
+
+// import '../css/Testimonal.css'/////
+
+// import next_icon from '../../src/assets/next-icon.png'
+// import back_icon from '../../src/assets/back-icon.png'
+
+// import user_1 from '../../src/assets/user_1.jpeg'
+// import user_2 from '../../src/assets/user_2.jpeg'
+// import user_3 from '../../src/assets/user_3.jpeg'
+// import user_4 from '../../src/assets/user_4.jpeg'
 
 
 
-const Testimonal = () => {
+/*const Testimonal = () => {
 
     const slider = useRef();
     let tx = 0;
@@ -36,7 +38,10 @@ return (
 onClick={slideBackward} />
   <div className="slider">
     <ul ref={slider}>
+    */
+   
         {/* User 1 */}
+        /*
         <li>
             <div className="slide">
                 <div className="user-info">
@@ -56,7 +61,9 @@ throughout the day.”
                 </p>
             </div>
         </li>
+        */
         {/* User 2 */}
+        /*
         <li>
             <div className="slide">
                 <div className="user-info">
@@ -73,7 +80,9 @@ conversations, making it easier for us to support one another."
                 </p>
             </div>
         </li>
+        */
         {/* User 3 */}
+        /*
         <li>
             <div className="slide">
                 <div className="user-info">
@@ -91,7 +100,9 @@ and more connected.”
                 </p>
             </div>
         </li>
+        */
         {/* User 4  */}
+        /*
         <li>
             <div className="slide">
                 <div className="user-info">
@@ -116,3 +127,4 @@ tasks with greater clarity and efficiency.”
 }
 
 export default Testimonal
+*/

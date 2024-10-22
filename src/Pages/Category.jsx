@@ -1,10 +1,10 @@
-import Testimonal from "./Testimonal";
+// import Testimonal from "./Testimonal";
 
 
 const Category = () => {
     return ( 
         <>
-        <Testimonal/>
+        {/* <Testimonal/> */}
         <h1>this is Category page</h1>
         </>
      );
