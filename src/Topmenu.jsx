@@ -9,9 +9,13 @@ import search from './Images/logo/search.png'
 import user1 from './Images/logo/user.png';
 import cart  from './Images/logo/cart.png';
 
+
 const Topmenu = () => {
     return ( 
-     <>
+     <> 
+         
+         
+          
         <Navbar id='nav' collapseOnSelect expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="/home">
@@ -62,5 +66,5 @@ const Topmenu = () => {
 
      );
 }
- 
+
 export default Topmenu;

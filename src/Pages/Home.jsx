@@ -36,7 +36,7 @@ const Home = () => {
         <>  
              <Carousel id='caro' fade>
       <Carousel.Item>
-      <img src={a2} alt=""  width="100%"  height="550px"/>
+      <img id='cimg' src={a2} alt=""  width="100%"  height="550px"/>
 
         <Carousel.Caption>
         
@@ -44,14 +44,14 @@ const Home = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <img src={a1} alt=""  width="100%"  height="550px" />
+      <img id='cimg2' src={a1} alt=""  width="100%"  height="550px" />
 
         <Carousel.Caption>
          
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <img src={a3} alt=""  width="100%"  height="550px" />
+      <img id='cimg3' src={a3} alt=""  width="100%"  height="550px" />
 
         <Carousel.Caption>
         
@@ -59,7 +59,7 @@ const Home = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <img src={a4} alt=""  width="100%"  height="550px" />
+      <img id='cimg4' src={a4} alt=""  width="100%"  height="550px" />
 
         <Carousel.Caption>
           
@@ -68,42 +68,42 @@ const Home = () => {
     </Carousel>
      
     {/* ======================================================================================= */}
-   <div style={{textAlign:"center", paddingTop:"20px" , paddingBottom:"20px"}}><h1>Features</h1></div>
+   <div id='fea' style={{textAlign:"center", paddingTop:"20px" , paddingBottom:"20px"}}><h1>Features</h1></div>
        
      
       <div id='cardf' style={{ backgroundColor:"MenuText"}}>
       <Card id='c1' style={{ width: '15rem' , alignItems:"center", backgroundColor:"#fadbd8 "}}>
-      <Card.Body>
-        <Card.Title style={{fontSize:"23px" }} >Free Delivery</Card.Title>
-          <img src={freede1} alt=""   width="100%"  height="100px"/>  
+      <Card.Body >
+        <Card.Title id='t1'  style={{fontSize:"23px"  }} >Free Delivery</Card.Title>
+          <img id='m1' src={freede1} alt=""   width="100%"  height="100px"/>  
       </Card.Body>
     </Card>
      
     <Card id='c2' style={{ width: '15rem' , alignItems:"center", backgroundColor:"#e8daef  "}}>
       <Card.Body>
-        <Card.Title style={{fontSize:"23px", marginBottom:"12px"}} >Happy Sell</Card.Title>
-          <img src={happysell1} alt=""   width="100%"  height="100px"/>  
+        <Card.Title id='t2' style={{fontSize:"23px", marginBottom:"12px"}} >Happy Sell</Card.Title>
+          <img id='m2' src={happysell1} alt=""   width="100%"  height="100px"/>  
       </Card.Body>
     </Card>
 
     <Card id='c3' style={{ width: '15rem' , alignItems:"center", backgroundColor:"#ebf5fb "}}>
       <Card.Body>
-        <Card.Title style={{fontSize:"23px", marginBottom:"12px" }} >Coupons</Card.Title>
-          <img src={coupon1} alt=""   width="100%"  height="100px"/>  
+        <Card.Title id='t3' style={{fontSize:"23px", marginBottom:"12px" }} >Coupons</Card.Title>
+          <img id='m3' src={coupon1} alt=""   width="100%"  height="100px"/>  
       </Card.Body>
     </Card>
 
     <Card id='c4' style={{ width: '15rem' , alignItems:"center", backgroundColor:"#fcf3cf "}}>
       <Card.Body>
-        <Card.Title style={{fontSize:"23px", marginBottom:"12px" }} >Service</Card.Title>
-          <img src={custservice1} alt=""   width="100%"  height="100px"/>  
+        <Card.Title id='t4' style={{fontSize:"23px", marginBottom:"12px" }} >Service</Card.Title>
+          <img id='m4' src={custservice1} alt=""   width="100%"  height="100px"/>  
       </Card.Body>
     </Card>
 
     <Card id='c5' style={{ width: '15rem' , alignItems:"center", backgroundColor:"#fadbd8 "}}>
       <Card.Body>
-        <Card.Title style={{fontSize:"23px", marginBottom:"12px"}} >Promotions</Card.Title>
-          <img src={promo1} alt=""   width="100%"  height="100px"/>  
+        <Card.Title id='t5' style={{fontSize:"23px", marginBottom:"12px"}} >Promotions</Card.Title>
+          <img id='m5' src={promo1} alt=""   width="100%"  height="100px"/>  
       </Card.Body>
     </Card>
 
@@ -122,7 +122,7 @@ const Home = () => {
    <div id="card">  
      <div id='car1'>
       <Card  style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={m1} />
+        <Card.Img id='cm1' variant="top" src={m1} />
           <Card.Body>
            <Card.Title>T-shirt</Card.Title>
             <Card.Subtitle className="mb-2 text-muted ">$80</Card.Subtitle>
@@ -138,7 +138,7 @@ const Home = () => {
     {/* ====== */}
   <div id='car2'>
     <Card  style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={m2} />
+      <Card.Img id='cm2' variant="top" src={m2} />
       <Card.Body>
         <Card.Title>T-shirt</Card.Title>
           <Card.Subtitle className="mb-2 text-muted ">$80</Card.Subtitle>
@@ -153,7 +153,7 @@ const Home = () => {
     {/* ======== */}
   <div id='car3'>
     <Card  style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={m3} />
+      <Card.Img id='cm3' variant="top" src={m3} />
       <Card.Body>
         <Card.Title>T-shirt</Card.Title>
           <Card.Subtitle className="mb-2 text-muted ">$80</Card.Subtitle>
@@ -169,7 +169,7 @@ const Home = () => {
       {/*=========  */}
   <div id='car4'> 
     <Card  style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={m4}/>
+      <Card.Img id='cm4' variant="top" src={m4}/>
       <Card.Body>
         <Card.Title>T-shirt</Card.Title>
           <Card.Subtitle className="mb-2 text-muted ">$80</Card.Subtitle>
@@ -184,7 +184,7 @@ const Home = () => {
 {/* ============= */}
 <div id='car5'>
     <Card  style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={m5} />
+      <Card.Img id='cm5' variant="top" src={m5} />
       <Card.Body>
         <Card.Title>T-shirt</Card.Title>
           <Card.Subtitle className="mb-2 text-muted ">$80</Card.Subtitle>
@@ -198,7 +198,7 @@ const Home = () => {
     </div>
 <div id='car6'>
     <Card  style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={m6} />
+      <Card.Img id='cm6' variant="top" src={m6} />
       <Card.Body>
         <Card.Title>T-shirt</Card.Title>
           <Card.Subtitle className="mb-2 text-muted ">$80</Card.Subtitle>
@@ -212,7 +212,7 @@ const Home = () => {
   </div>
  <div id='car7'>
     <Card  style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={m7}  />
+      <Card.Img id='cm7' variant="top" src={m7}  />
       <Card.Body>
         <Card.Title>T-shirt</Card.Title>
           <Card.Subtitle className="mb-2 text-muted ">$80</Card.Subtitle>
@@ -227,7 +227,7 @@ const Home = () => {
    
  <div id='car8'>
     <Card  style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={m8} />
+      <Card.Img id='cm8' variant="top" src={m8} />
       <Card.Body>
         <Card.Title>T-shirt</Card.Title>
           <Card.Subtitle className="mb-2 text-muted ">$80</Card.Subtitle>
@@ -243,8 +243,8 @@ const Home = () => {
 {/* ================================================================================== */}
 
 
- <div style={{paddingTop:"40px" , paddingBottom:"40px"}}>
-  <img src={ban2} alt="" width={"100%"}  height={"400px"} />
+ <div  style={{paddingTop:"40px" , paddingBottom:"40px"}}>
+  <img id='ban' src={ban2} alt="" width={"100%"}  height={"400px"} />
  </div>
 
 {/* ============================================================================ */}
@@ -256,7 +256,7 @@ const Home = () => {
    <div id="card">  
      <div id='car1'>
       <Card  style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={w1} />
+        <Card.Img id='cm1' variant="top" src={w1} />
           <Card.Body>
            <Card.Title>T-shirt</Card.Title>
             <Card.Subtitle className="mb-2 text-muted ">$80</Card.Subtitle>
@@ -272,7 +272,7 @@ const Home = () => {
     {/* ====== */}
   <div id='car2'>
     <Card  style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={w2} />
+      <Card.Img id='cm2' variant="top" src={w2} />
       <Card.Body>
         <Card.Title>Dress</Card.Title>
           <Card.Subtitle className="mb-2 text-muted ">$180</Card.Subtitle>
@@ -287,7 +287,7 @@ const Home = () => {
     {/* ======== */}
   <div id='car3'>
     <Card  style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={w3} />
+      <Card.Img id='cm3' variant="top" src={w3} />
       <Card.Body>
         <Card.Title>T-shirt</Card.Title>
           <Card.Subtitle className="mb-2 text-muted ">$80</Card.Subtitle>
@@ -303,7 +303,7 @@ const Home = () => {
       {/*=========  */}
   <div id='car4'> 
     <Card  style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={w4} />
+      <Card.Img id='cm4' variant="top" src={w4} />
       <Card.Body>
         <Card.Title>T-shirt</Card.Title>
           <Card.Subtitle className="mb-2 text-muted ">$80</Card.Subtitle>
@@ -318,7 +318,7 @@ const Home = () => {
 {/* ============= */}
 <div id='car5'>
     <Card  style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={w5} />
+      <Card.Img id='cm5' variant="top" src={w5} />
       <Card.Body>
         <Card.Title>T-shirt</Card.Title>
           <Card.Subtitle className="mb-2 text-muted ">$80</Card.Subtitle>
@@ -332,7 +332,7 @@ const Home = () => {
     </div>
 <div id='car6'>
     <Card  style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={w6} />
+      <Card.Img id='cm6' variant="top" src={w6} />
       <Card.Body>
         <Card.Title>T-shirt</Card.Title>
           <Card.Subtitle className="mb-2 text-muted ">$80</Card.Subtitle>
@@ -346,7 +346,7 @@ const Home = () => {
   </div>
  <div id='car7'>
     <Card  style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={w7} />
+      <Card.Img id='cm7' variant="top" src={w7} />
       <Card.Body>
         <Card.Title>T-shirt</Card.Title>
           <Card.Subtitle className="mb-2 text-muted ">$80</Card.Subtitle>
@@ -361,7 +361,7 @@ const Home = () => {
    
  <div id='car8'>
     <Card  style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={w8} />
+      <Card.Img id='cm8' variant="top" src={w8} />
       <Card.Body>
         <Card.Title>black Cargo</Card.Title>
           <Card.Subtitle className="mb-2 text-muted ">$80</Card.Subtitle>
